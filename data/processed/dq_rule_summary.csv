@@ -1,0 +1,7 @@
+rule_name,description,fail_count,fail_rate_pct
+non_positive_amount,amount is zero or negative,91,1.8
+duplicate_transaction_id,transaction_id appears more than once,44,0.87
+future_dated_transaction,transaction_date is in the future,42,0.83
+missing_amount,amount is null,41,0.81
+invalid_currency,currency code not in allowed list,38,0.75
+missing_customer_id,customer_id is null,35,0.69
